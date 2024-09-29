@@ -1,0 +1,30 @@
+:root {
+    color-scheme: light dark;
+}
+
+body {
+    width: 100px;
+    padding: 10px;
+
+    font-family: system-ui;
+    text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+    /* Dark Mode styles go here. */
+}
+
+#title {
+    font-size: 30px;
+    margin-top: 7%;
+    font: -apple-system-title0;
+}
+
+#email_list {
+    font: -apple-system-title3;
+}
+
+#email_list ul, #email_list li {
+    margin: 0;
+    padding: 0;
+}
